@@ -7,10 +7,10 @@
     <title>Form</title>
 </head>
 <body>
-    <header>
-        <h1>Your Basic Info</h1>
-    </header>
-    <form action="#" method="get">
+    <form name="my-form" id="myForm" action="#" method="get">
+        <header>
+            <h1>Your Basic Info</h1>
+        </header>
         
         <label for="nameId">Name</label>
         <input type="text" id="nameId" required>
@@ -18,11 +18,11 @@
         <label for="emailId">Email</label>
         <input type="email" id="emailId" required placeholder="example@gmail.com">
         <br>
-        <label for="passwordId">Password</label>
-        <input type="password" id="passwordId" required placeholder="Must contain at least 6 characters" maxlength="10">
-        <br>
         <label for="phoneId">Phone Number</label>
         <input type="tel" id="phoneId" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="13" placeholder="Optional"/>
+        <br>
+        <label for="passwordId">Password</label>
+        <input type="password" id="passwordId" required placeholder="Must contain at least 6 characters" maxlength="10">
         <br>
         <h4>Your Best Contact Times...</h4>
         <label for="morning">Morning</label>
@@ -31,23 +31,22 @@
         <input type="radio" id="afternoon" value="afternoon">
         <label for="evening">Evening</label>
         <input type="radio" id="evening" value="evening">
-    </form>
-
-    <header>
-        <h1>Your Profile</h1>
-    </header>
-    <form action="#" method="get">
-        <h1>Your Profile</h1>
+        <br><br>
+        <header>
+            <h1>Your Profile</h1>
+        </header>
         <label for="biographyId">Biography</label>
-        <input type="text" id="biographyId">
+        <textarea name="biographyId" id="biographyId" cols="30" rows="3"></textarea>
         <br>
-        <label for="coursesId">Select Courses</label>
-        <input type="text" id="coursesId">
-
-        
+        <label for="interestsId">Interests</label>
+        <input type="text" id="interestsId">
 
 
+
+
+        <input type="submit" value="Submit">
     </form>
+
     
 </body>
 </html>
