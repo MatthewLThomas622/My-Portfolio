@@ -1,48 +1,78 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <title>My-Portfolio</title>
 </head>
-
 <body>
-    <h1>Matthew Thomas</h1><br>
+    <!-- Navbar goes here -->
+    <nav class="navbar navbar-light navbar-expand-lg px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Languages</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Herounit goes here -->
+      <div class="jumbotron">
+        <h1 class="display-2">Hello, world!</h1>
+        <p class="lead pt-4">My name is Matthew Thomas</p>
+        <p class="details py-4">I am 8 weeks into learning FrontEnd Web Development. These are some of the skills I have started learning.</p>
+      </div>
+      <!-- Cards go here -->
+      <div class="row justify-content-center px-4">
+        <div class="col-sm-3 mb-3 mb-sm-0 mx-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 mb-sm-0 mx-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 mb-sm-0 mx-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <h2><i>“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will
-            face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the
-            inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.”</i></h2>
-    <hr><br>
 
-    <img src="https://www.shutterstock.com/image-photo/portrait-happy-young-man-looking-260nw-1096183793.jpg"
-        alt="Picture Of Matthew"><br>
-
-    <h2>About Me</h2><br>
-
-    <ul>
-        <li>I'm an Auburn Fan born and raised</li>
-        <li>I live in Birmingham</li>
-        <li>I have two dogs and am allergic to them</li>
-        <li>I've worked in landscaping and construction</li>
-    </ul>
-    <br>
-    <br>
-
-    <h2>Interests</h2><br>
-
-    <ul>
-        <li>I like fishing on the weekends - I just started learning how to fly fish</li>
-        <li>I like to read</li>
-    </ul>
-    <br>
-    <br>
-
-    <img src="https://www.expeditionoutside.com/wp-content/uploads/2021/10/BasicHeader.jpg" height="300" width="400"
-        alt="fly fishing">
 </body>
-
 </html>
