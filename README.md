@@ -6,8 +6,6 @@
 
 - Developer: Matthew Thomas
 
-- Initial Date Published: 
-
 - Deployed on: Github
 
 - Technologies Used:
